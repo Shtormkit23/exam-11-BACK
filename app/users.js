@@ -59,5 +59,4 @@ router.delete("/sessions", async (req, res) => {
     return res.send(success);
 });
 
-
 module.exports = router;
